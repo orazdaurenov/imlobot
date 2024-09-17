@@ -32,6 +32,6 @@ async def checkImlo(message: types.Message):
         for text in result['matches']:
             response += f"✅ {text.capitalize()}\n"
     await message.answer(response)
-
+# fdfdf
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
